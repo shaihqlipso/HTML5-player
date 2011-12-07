@@ -19,9 +19,11 @@
 		
 	</script>
 	<div id="playerContainer" style="background-color: #0000FF;"></div>
-	<canvas id="commentsCanvas"></canvas>
+	<canvas id="commentsCanvas" width="640" height="390"></canvas>
 	<script type="text/javascript">
-		
+		var c = {"thumbnail":thumbnail,"color":"#FF0000","annotation":"Hello Shemesh!"};
+		var cr = new CommentRenderer();
+		cr.draw(100,100);
 	</script>
 	<iframe id="actions"></iframe>
 </body>
