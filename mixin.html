@@ -21,8 +21,8 @@
 	<div id="playerContainer" style="background-color: #0000FF;"></div>
 	<canvas id="commentsCanvas" width="640" height="390"></canvas>
 	<script type="text/javascript">
-		var c = {"thumbnail":thumbnail,"color":"#FF0000","annotation":"Hello Shemesh!"};
 		var cr = new CommentRenderer();
+		cr.setData({"thumbnail":"http://olamhazohar.files.wordpress.com/2010/07/superman2.gif","color":"#FF0000","annotation":"Hello Shemesh!"});
 		cr.draw(100,100);
 	</script>
 	<iframe id="actions"></iframe>
